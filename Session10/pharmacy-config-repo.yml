@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    template:
+      default-topic: medicine-stock-events
+# Cấu hình này sẽ được Config Server trả về cho Client
